@@ -1,4 +1,4 @@
-# Project Methodology - Telecom Customer Churn Analysis
+# Project Methodology – Telecom Customer Churn Analysis
 
 ## 1. Dataset Collection
 
@@ -11,7 +11,7 @@
 
 The source CSV was imported into PostgreSQL as a raw table.
 
-Raw Table: `raw.telco_customer_churn`
+**Raw Table:** `raw.telco_customer_churn`
 
 All source columns were initially stored as `TEXT` to support reliable CSV ingestion and handle inconsistent or blank numeric values during transformation.
 
@@ -19,7 +19,7 @@ All source columns were initially stored as `TEXT` to support reliable CSV inges
 
 A staging table was created from the raw dataset to prepare the data for analysis.
 
-Staging Table: `staging.telco_customer_churn`
+**Staging Table:** `staging.telco_customer_churn`
 
 Key transformations included:
 
@@ -42,17 +42,12 @@ The staging dataset was validated through the following checks:
 
 **Validation Results:**
 
-+------------------------+--------+
-| Check                  | Result |
-+------------------------+--------+
-| Raw records            | 7,043  |
-+------------------------+--------+
-| Staging records        | 7,043  |
-+------------------------+--------+
-| Duplicate customer IDs | 0      |
-+------------------------+--------+
-| Missing total charges  | 11     |
-+------------------------+--------+
+| Check | Result |
+|---|---:|
+| Raw records | 7,043 |
+| Staging records | 7,043 |
+| Duplicate customer IDs | 0 |
+| Missing total charges | 11 |
 
 ## 5. Exploratory Data Analysis
 
@@ -95,15 +90,11 @@ These findings represent observed associations and should not be interpreted as 
 
 ## 8. Technology Stack
 
-+------------+------------------------------------------------------------------------+
-| Technology | Usage                                                                  |
-+------------+------------------------------------------------------------------------+
-| PostgreSQL | Data storage, cleaning, transformation, and analysis                   |
-+------------+------------------------------------------------------------------------+
-| SQL        | Data quality checks, exploratory analysis, and business investigations |
-+------------+------------------------------------------------------------------------+
-| GitHub     | Project version control and documentation                              |
-+------------+------------------------------------------------------------------------+
+| Technology | Usage |
+|---|---|
+| PostgreSQL | Data storage, cleaning, transformation, and analysis |
+| SQL | Data quality checks, exploratory analysis, and business investigations |
+| GitHub | Project version control and documentation |
 
 ## 9. Project Workflow
 
@@ -114,4 +105,3 @@ These findings represent observed associations and should not be interpreted as 
 5. Exploratory data analysis.
 6. Business-focused SQL investigations.
 7. Documentation of findings and limitations.
-
