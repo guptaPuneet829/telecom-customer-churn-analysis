@@ -186,27 +186,27 @@ The following screenshots demonstrate selected SQL investigations and their actu
 
 ### 1. Overall Customer Churn
 
-![Overall customer churn](images/01_overall_churn.png)
+![Overall customer churn](Output_Screenshots/01_overall_churn.png)
 
 ### 2. Contract Type vs Customer Churn
 
-![Contract churn analysis](images/02_contract_churn.png)
+![Contract churn analysis](Output_Screenshots/02_contract_churn.png)
 
 ### 3. Internet Service vs Customer Churn
 
-![Internet service churn analysis](images/03_internet_service_churn.png)
+![Internet service churn analysis](Output_Screenshots/03_internet_service_churn.png)
 
 ### 4. Tech Support and Online Security
 
-![Support and security analysis](images/04_support_security_analysis.png)
+![Support and security analysis](Output_Screenshots/04_support_security_analysis.png)
 
 ### 5. Payment Method vs Customer Churn
 
-![Payment method churn analysis](images/05_payment_method_churn.png)
+![Payment method churn analysis](Output_Screenshots/05_payment_method_churn.png)
 
 ### 6. Combined Customer Segment Analysis
 
-![Combined customer segment analysis](images/06_customer_segment_analysis.png)
+![Combined customer segment analysis](Output_Screenshots/06_customer_segment_analysis.png)
 
 ## Repository Structure
 
@@ -229,7 +229,7 @@ telecom-customer-churn-analysis/
 ├── outputs/
 │   └── SQL query result CSV files
 │
-├── images/
+├── Output_Screenshots/
 │   └── SQL analysis screenshots
 │
 ├── README.md
