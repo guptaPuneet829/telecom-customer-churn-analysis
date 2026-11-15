@@ -33,7 +33,7 @@ The analysis explores customer demographics, contract types, internet services, 
 
 The dataset contains customer information, account details, subscribed services, billing information, and churn status.
 
-Refer to [`data/README.md`](Data/README.md) for dataset download instructions.
+Refer to [`Data/README.md`](Data/README.md) for dataset download instructions.
 
 ## Tech Stack
 
